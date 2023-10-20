@@ -33,7 +33,7 @@ jobs:
           useToken: false
           # capitalise words
           capitalize: false
-          run: echo 
+          run: echo $release-name
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
